@@ -1,4 +1,9 @@
 # Created by .ignore support plugin (hsz.mobi)
+
+# App Specific
+config.js
+
+
 ### Node template
 # Logs
 logs
@@ -83,6 +88,3 @@ com_crashlytics_export_strings.xml
 crashlytics.properties
 crashlytics-build.properties
 fabric.properties
-
-# app specific
-config.js
