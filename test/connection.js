@@ -1,3 +1,4 @@
+/*
 var expect = require('chai').expect;
 
 describe('Connection', function() {
@@ -40,7 +41,7 @@ describe('Connection', function() {
 });
 
 
-/*
+/!*
 
     Connection Manager
 
@@ -53,4 +54,4 @@ describe('Connection', function() {
 
 
 
- */
+ *!/*/

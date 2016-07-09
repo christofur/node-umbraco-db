@@ -1,6 +1,8 @@
-var statisticsService = require('./app/services/statisticsService');
+var statisticsService = require('./lib/services/statisticsService');
+var growl = require('growl')
 
-statisticsService.init()
+
+statisticsService.getCountNodes()
     .then(function(v){
-        console.log(v);
+        growl(v)
     });
