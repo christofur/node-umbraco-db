@@ -7,7 +7,7 @@ gulp.task('default', function() {
 });
 
 gulp.task('mocha', function() {
-    return gulp.src(['test/integration/*.js'])
+    return gulp.src(['test/*.js'])
         .pipe(mocha({ reporter: 'list', growl: true }))
         .on('error', gutil.log);
 });
